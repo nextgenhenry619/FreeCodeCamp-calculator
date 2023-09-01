@@ -28,7 +28,10 @@
   gap: 15px;
   padding: 30px;
   border-radius: 30px;
-  background-color: var(--black)
+  background-color: var(--black);
+  justify-content: center;
+  align-items: center;
+
 }
 
 .light-blue{
@@ -163,4 +166,22 @@ button:active {
 
 #display{
   grid-area: display;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(9, 3, 97);
+  }
+  #calculator{
+    width: 85%;
+   
+  }
+  #display{
+    width: 90%;
+    margin-left:35px;
+  }
+  button{
+    height: 40px;
+    width: 100px;
+  }
 }
