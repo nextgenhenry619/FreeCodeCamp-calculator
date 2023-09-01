@@ -27,7 +27,7 @@
   grid-template-columns: 100px 100px 100px 100px;
   gap: 15px;
   padding: 30px;
-  border-radius: 30px;
+  border-radius: 15px;
   background-color: var(--black);
   justify-content: center;
   align-items: center;
@@ -62,15 +62,13 @@
   position: relative;
   font-size: 50px;
   height: 60px;
-  margin-right: 35px;
 }
 
 #expression{
   background-color: var(--black);
   font-size: 20px;
   height: 25px;
-  margin-right: 35px;
-  margin-top: -5px;
+  margin-top: 10px;
 }
 
 button{
@@ -78,8 +76,8 @@ button{
   font-size: 20px;
   border: none;
   cursor: pointer;
-  border-radius: 100px;
   width: 100%;
+  border-radius: 100px;
   transition: transform 0.1s ease-in-out;
 }
 
@@ -174,14 +172,16 @@ button:active {
   }
   #calculator{
     width: 85%;
-   
+    gap: 5px;
+    grid-template-columns: 90px 90px 90px 90px;
   }
   #display{
-    width: 90%;
-    margin-left:35px;
+    width: 92%;
+    margin-top: -20px;
   }
   button{
-    height: 40px;
-    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0;
   }
 }
